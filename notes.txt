@@ -1,0 +1,21 @@
+//Generate a random number between 1 and 10000
+
+Random rnd = new Random();
+int r = rnd.nextInt(10000);
+
+// Use the keyword final to indicate a constant value
+
+final int CENTS_IN_DOLLAR = 100;
+
+// Create arrays
+type[] variableName = new type[size]
+int[] scores = new int[10];
+            or
+type variableName[] = new type[size]
+int scores[] = new int[10];
+
+// Array literal
+String languages[] = {"Java", "Python", "C#"};
+int numbers[] = { 2, 4, 6, 8, 10, 12 };
+
+Note: ARRAY NUMBERING STARTS AT 0, LAST ITEM IS SIZE – 1

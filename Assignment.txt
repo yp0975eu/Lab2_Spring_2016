@@ -1,0 +1,135 @@
+Java Programming: Lab 2
+Loops and Arrays and Switch Statements and the Debugger
+
+1. You should complete the Essentials problems in class. Paste your code into this worksheet as directed and answer any questions in italics. At the end of class, save this worksheet and upload it to this lab's dropbox. If you have not finished, upload the code that you have written at the end of class. You should finish the remaining Essential problems outside of class.
+
+2. Outside of class, work on as many Advanced problems as you can. Usually you should expect to spend 2-3 hours on these problems. Paste your code into this worksheet as directed and answer any questions in italics.  Save your work and upload this worksheet to this lab's dropbox before the deadline.
+
+You should always comment all of your code!
+
+You are encouraged to work with other students, and to give others assistance if they need. And, please ask the instructor if you have any questions.
+
+
+Essentials – Work on these in class and upload at the end of class
+
+Problem 1, Loop Practice:
+
+Write these loops:
+
+•	Write a loop that adds up all of the integer numbers between 1 and 100
+•	Write a loop that prints out the integer numbers from 100 down to 1
+•	Write a loop that asks the user to enter 5 positive numbers. The user will enter the numbers, one by one.  Once the user has entered all the numbers, calculate the total and the average value. 
+
+Paste your Java code here:
+
+
+Problem 2, Rolling a Dice:
+
+Write a program that simulates rolling a standard 6-sided dice.  Your program should let the user roll the dice as many times as they like. How will you stop your program when the user is done?
+
+Paste your Java code here:
+
+
+Problem 3, Two Dice:
+
+Start with the last program. Modify it to roll two standard dice and display the value of each dice and the total of both dice.
+
+Print a message if both dice show the same value.
+
+(hint… picking a random number between 1 and 12 is not the right approach)
+
+Paste your Java code here:
+
+
+Problem 4, Switch Statements:
+
+Start with the switch program from the slides. This generates one random number and uses a case statement to print a different message, depending on the number's value.
+
+Please modify this program so it generates a million random numbers, and keeps track of how many 0s, 1s, 2s, 3s, and 4s were generated. 
+
+If the random number generator was truly random, you should expect about 200k (1 million / 5) of each number. Is that what you get?
+
+Paste your Java code here:
+
+Problem 5, Pyramid of stars:
+
+Write a program that displays a pyramid of stars of any height. The user should be able to enter a height, and your program will use loops to display a pyramid. So, if the user enters 4, your program will display
+
+   *
+  ***
+ *****
+*******
+
+Paste your Java code here:
+
+
+Problem 6, Debugging: 
+
+Add a breakpoint to the start of one of your programs. Debug it, and then use the debugger to step through your program, and inspect the value of the variables. 
+
+How do you add a breakpoint? How can you remove a breakpoint?
+
+Can you add more than one breakpoint?
+
+How do you activate and deactivate breakpoints? 
+
+How do you move through your code one line at a time?
+
+How do you see the value of a variable?
+
+What does clicking on the triangle next to a variable on the variables pane do? (Such as the arrow next to names in the screenshot below) 
+
+ 
+
+You must be able to use the debugger so please ask me for help if you need any assistance getting started with the debugger!
+
+
+
+Advanced – work on these in class and online, and upload by the Advanced Deadline
+
+Finish any incomplete Essentials problems first.
+
+Problem 1, Strings and Loops:
+
+A pangram is a sentence that contains all of the letters A through Z. So “The quick brown fox jumps over the lazy dog” is an example.  Write a program that uses a loop to decide if a sentence is a pangram or not. Your code should not use 26 if statements!
+
+Paste your Java code here:
+
+
+Problem 2, Delivery Company:
+
+A parcel delivery company charges the following rates to ship a parcel.
+
+•	Up to 5 pounds: $2.45 per pound
+•	Up to 10 pounds: $2.15 per pound
+•	Up to 15 pounds: $1.95 per pound
+•	Up to 20 pounds: $1.55 per pound
+•	Up to 30 pounds: $1.15 per pound
+
+The shipping company does not ship parcels that weigh over 30 pounds.
+
+So, a parcel that weighs 17 pounds will cost $1.55 x 17 = $26.35.
+
+Write a program that asks the user for the weight of a parcel and displays whether it can be shipped, and what it will cost. 
+
+Paste your Java code here:
+
+
+Problem 3, Smartphone: 
+
+A smartphone is running 3 apps, each of which syncs and download data from a different server. 
+
+•	App A syncs and downloads data every hour, and downloads 0.5KB each time
+•	App B syncs and downloads daily, and downloads 2KB every time
+•	App C, when installed, takes up 1MB. This app syncs and downloads every 4 hours, and every time it syncs it downloads 0.1% of its current size.
+
+With all apps installed, the phone has 5MB of free space. With all 3 apps running continuously, how long will it be before the phone runs out of space? 
+
+Assume the phone is running continuously and nothing else is using space on the phone.
+
+Hint 1: the modulus operator is helpful. An expression like  ( number % 4 == 0 ) is true if number divides evenly by 4. 
+Hint 2:  the answer is several thousand hours.
+
+Paste your Java code here:
+
+
